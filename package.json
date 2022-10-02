@@ -2,11 +2,10 @@
   "name": "twitterbot",
   "version": "1.0.0",
   "description": "test twitter api",
-  "main": "bot.js",
+  "main": "recentSearch.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-     "start": "node bot.js"
-
+    "start": "node recentSearch.js"
   },
   "repository": {
     "type": "git",
@@ -23,7 +22,11 @@
   },
   "homepage": "https://github.com/mgunnar/twitterbot#readme",
   "dependencies": {
+    "dotenv": "^16.0.3",
+    "got": "^12.5.1",
+    "needle": "^3.1.0",
     "node-schedule": "^2.1.0",
+    "oauth-1.0a": "^2.2.6",
     "random-item": "^4.0.1",
     "twit": "^2.2.11"
   }
